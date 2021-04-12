@@ -1,127 +1,151 @@
 {
-  "project": {
-    "id": "jaicf-jaicp-caila-template",
-    "name": "jaicf-jaicp-caila-template",
-    "folder": "/"
+  "project" : {
+    "id" : "kloud-250311145-kNU",
+    "name" : "kloud-250311145-kNU",
+    "folder" : "/jaicp"
   },
-  "settings": {
-    "language": "en",
-    "spellingCorrection": false,
-    "classificationAlgorithm": "sts",
-    "timezone": "UTC",
-    "shared": false
+  "settings" : {
+    "language" : "en",
+    "spellingCorrection" : false,
+    "classificationAlgorithm" : "sts",
+    "timezone" : "UTC",
+    "shared" : false
   },
-  "intents": [
-    {
-      "id": 6760,
-      "path": "/Bye",
-      "enabled": true,
-      "shared": false,
-      "phrases": [
-        {
-          "text": "goodbye"
-        },
-        {
-          "text": "bye"
-        },
-        {
-          "text": "see you"
-        }
-      ],
-      "patterns": []
-    },
-    {
-      "id": 6761,
-      "path": "/Hello",
-      "enabled": true,
-      "shared": false,
-      "phrases": [
-        {
-          "text": "hi"
-        },
-        {
-          "text": "hello"
-        },
-        {
-          "text": "welcome"
-        }
-      ],
-      "patterns": []
-    },
-    {
-      "id": 6762,
-      "path": "/Smalltalk",
-      "enabled": true,
-      "shared": false,
-      "phrases": [],
-      "patterns": []
-    },
-    {
-      "id": 6763,
-      "path": "/Smalltalk/Help",
-      "description": "",
-      "answer": "I'm a templated bot and can't do useful things yet...",
-      "enabled": true,
-      "shared": false,
-      "phrases": [
-        {
-          "text": "help"
-        },
-        {
-          "text": "what can you do"
-        },
-        {
-          "text": "your functions"
-        },
-        {
-          "text": "your possibilities"
-        },
-        {
-          "text": "tell me about you"
-        }
-      ],
-      "patterns": []
-    },
-    {
-      "id": 6764,
-      "path": "/Smalltalk/HowAreYou",
-      "answer": "I'm fine! Thank you!",
-      "enabled": true,
-      "shared": false,
-      "phrases": [
-        {
-          "text": "how are you"
-        }
-      ],
-      "patterns": []
-    },
-    {
-      "id": 6765,
-      "path": "/Smalltalk/WhatIsYourName",
-      "answer": "I don't have a name yet, I'm just a bot",
-      "enabled": true,
-      "shared": false,
-      "phrases": [
-        {
-          "text": "what is your name"
-        },
-        {
-          "text": "how to name you"
-        },
-        {
-          "text": "say me your name"
-        }
-      ],
-      "patterns": []
-    }
-  ],
-  "entities": [],
-  "enabledSystemEntities": [
-    "duckling.number",
-    "duckling.time",
-    "duckling.duration",
-    "duckling.phone-number",
-    "duckling.email",
-    "duckling.url"
-  ]
+  "intents" : [ {
+    "id" : 424736,
+    "path" : "/Bye",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "goodbye"
+    }, {
+      "text" : "bye"
+    }, {
+      "text" : "see you"
+    } ],
+    "patterns" : [ ]
+  }, {
+    "id" : 424737,
+    "path" : "/Hello",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "hi"
+    }, {
+      "text" : "hello"
+    }, {
+      "text" : "welcome"
+    } ],
+    "patterns" : [ ]
+  }, {
+    "id" : 424738,
+    "path" : "/Smalltalk",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ ],
+    "patterns" : [ ]
+  }, {
+    "id" : 424739,
+    "path" : "/Smalltalk/Help",
+    "description" : "",
+    "answer" : "I'm a templated bot and can't do useful things yet...",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "help"
+    }, {
+      "text" : "what can you do"
+    }, {
+      "text" : "your functions"
+    }, {
+      "text" : "your possibilities"
+    }, {
+      "text" : "tell me about you"
+    } ],
+    "patterns" : [ ]
+  }, {
+    "id" : 424740,
+    "path" : "/Smalltalk/HowAreYou",
+    "answer" : "I'm fine! Thank you!",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "how are you"
+    } ],
+    "patterns" : [ ]
+  }, {
+    "id" : 424741,
+    "path" : "/Smalltalk/WhatIsYourName",
+    "answer" : "I don't have a name yet, I'm just a bot",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "what is your name"
+    }, {
+      "text" : "how to name you"
+    }, {
+      "text" : "say me your name"
+    } ],
+    "patterns" : [ ]
+  } ],
+  "entities" : [ ],
+  "enabledSystemEntities" : [ "duckling.number", "duckling.time", "duckling.duration", "duckling.phone-number", "duckling.email", "duckling.url" ],
+  "spellerDictionary" : [ ],
+  "systemEntities" : [ {
+    "name" : "duckling.number",
+    "version" : "v1",
+    "enabled" : true
+  }, {
+    "name" : "duckling.ordinal",
+    "version" : "v1",
+    "enabled" : false
+  }, {
+    "name" : "duckling.amount-of-money",
+    "version" : "v1",
+    "enabled" : false
+  }, {
+    "name" : "duckling.distance",
+    "version" : "v1",
+    "enabled" : false
+  }, {
+    "name" : "duckling.quantity",
+    "version" : "v1",
+    "enabled" : false
+  }, {
+    "name" : "duckling.temperature",
+    "version" : "v1",
+    "enabled" : false
+  }, {
+    "name" : "duckling.volume",
+    "version" : "v1",
+    "enabled" : false
+  }, {
+    "name" : "duckling.time",
+    "version" : "v1",
+    "enabled" : true
+  }, {
+    "name" : "duckling.date",
+    "version" : "v1",
+    "enabled" : false
+  }, {
+    "name" : "duckling.time-of-day",
+    "version" : "v1",
+    "enabled" : false
+  }, {
+    "name" : "duckling.duration",
+    "version" : "v1",
+    "enabled" : true
+  }, {
+    "name" : "duckling.phone-number",
+    "version" : "v1",
+    "enabled" : true
+  }, {
+    "name" : "duckling.email",
+    "version" : "v1",
+    "enabled" : true
+  }, {
+    "name" : "duckling.url",
+    "version" : "v1",
+    "enabled" : true
+  } ]
 }
