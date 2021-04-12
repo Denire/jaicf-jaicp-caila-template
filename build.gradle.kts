@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "com.justai.jaicf"
-version = "1.0.0"
+version = "ZB-11352-SNAPSHOT"
 
 val jaicf = "1.0.0"
 val logback = "1.2.3"
@@ -19,6 +19,7 @@ repositories {
     mavenLocal()
     mavenCentral()
     jcenter()
+    maven("https://s01.oss.sonatype.org/content/repositories/snapshots/")
     maven("https://jitpack.io")
 }
 
