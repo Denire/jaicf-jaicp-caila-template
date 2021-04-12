@@ -27,7 +27,7 @@ dependencies {
     implementation(kotlin("stdlib-jdk8"))
 
     implementation("ch.qos.logback:logback-classic:$logback")
-    implementation("de.appelgriepsch.logback:logback-gelf-appender:1.5")
+    // implementation("de.appelgriepsch.logback:logback-gelf-appender:1.5")
 
     implementation("com.just-ai.jaicf:core:$jaicf")
     implementation("com.just-ai.jaicf:jaicp:$jaicf")
