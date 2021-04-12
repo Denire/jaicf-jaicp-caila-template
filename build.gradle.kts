@@ -5,9 +5,9 @@ plugins {
 }
 
 group = "com.justai.jaicf"
-version = "ZB-11352-SNAPSHOT"
+version = "1.0.0"
 
-val jaicf = "1.0.0"
+val jaicf = "ZB-11352-SNAPSHOT"
 val logback = "1.2.3"
 
 // Main class to run application on heroku. Either JaicpPollerKt, or JaicpServerKt. Will propagate to .jar main class.
