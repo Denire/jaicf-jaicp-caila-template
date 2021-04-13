@@ -49,6 +49,24 @@ val mainScenario = Scenario {
         }
     }
 
+    state("example") {
+        activators {
+            regex("example")
+        }
+        action {
+            reactions.say("i'm in example")
+        }
+    }
+
+    state("another") {
+        activators {
+            regex("another")
+        }
+        action {
+            reactions.say("i'm in another")
+        }
+    }
+
     fallback {
         reactions.sayRandom(
             "These are changes from remote repository",
