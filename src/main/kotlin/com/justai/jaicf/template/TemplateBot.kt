@@ -30,4 +30,4 @@ val templateBot = BotEngine(
     )
 )
 
-val fuck = "fuck23234"
+val fuck = "fuck232342"
