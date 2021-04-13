@@ -53,7 +53,8 @@ val mainScenario = Scenario {
         reactions.sayRandom(
             "These are changes from remote repository",
             "Yet another changes",
-            "And yet another changes"
+            "And yet another changes",
+            "Yet another changes2"
         )
     }
 }
