@@ -29,3 +29,5 @@ val templateBot = BotEngine(
         RegexActivator
     )
 )
+
+val fuck = "fuck"
