@@ -51,8 +51,7 @@ val mainScenario = Scenario {
 
     fallback {
         reactions.sayRandom(
-            "Sorry, I didn't get that...",
-            "Sorry, could you repeat please?"
+            "These are changes from remote repository"
         )
     }
 }
