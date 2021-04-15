@@ -14,14 +14,18 @@ val accessToken: String = System.getenv("JAICP_API_TOKEN") ?: Properties().run {
     getProperty("apiToken")
 }
 
+val CA_URL = "http://test12.lo.test-ai.net/chatadapter"
+val CLP_URL = "http://test12.lo.test-ai.net/cailapub/api/caila/p"
+
 private val cailaNLUSettings = CailaNLUSettings(
-    accessToken = accessToken
+    accessToken = accessToken,
+    cailaUrl = CLP_URL
 )
 
 val templateBot = BotEngine(
     scenario = mainScenario,
     conversationLoggers = arrayOf(
-        JaicpConversationLogger(accessToken),
+        JaicpConversationLogger(accessToken, url = CA_URL),
         Slf4jConversationLogger()
     ),
     activators = arrayOf(
