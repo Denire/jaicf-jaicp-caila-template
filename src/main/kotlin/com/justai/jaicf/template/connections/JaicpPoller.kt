@@ -16,7 +16,6 @@ fun main() {
             ChatApiChannel,
             ChatWidgetChannel,
             TelephonyChannel
-        ),
-        url = CA_URL
+        )
     ).runBlocking()
 }
