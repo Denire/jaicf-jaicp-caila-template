@@ -69,10 +69,7 @@ val mainScenario = Scenario {
 
     fallback {
         reactions.sayRandom(
-            "These are changes from remote repository",
-            "Yet another changes",
-            "And yet another changes",
-            "Yet another changes2"
+            "These are changes from remote repository -- changedate 17.42"
         )
     }
 }
